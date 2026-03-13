@@ -102,7 +102,7 @@ namespace PraktikumADO
                 Koneksi();
                 conn.Open();
 
-                string query = "UPDATE Mahasiswa SET Alamat= 'Copenhagen' WHERE NIM = ''";
+                string query = "UPDATE Mahasiswa SET Alamat= 'Copenhagen' WHERE NIM = '23110100001'";
 
                 cmd = new SqlCommand(query, conn);
 
@@ -117,6 +117,8 @@ namespace PraktikumADO
             {
                 MessageBox.Show(ex.Message);
             }
+
+        private
         }
 
 
