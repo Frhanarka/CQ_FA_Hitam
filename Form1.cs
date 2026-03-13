@@ -166,7 +166,7 @@ namespace PraktikumADO
             catch (Exception ex) { MessageBox.Show("Gagal/Sudah ada: " + ex.Message); }
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void Form1_Lock(object sender, EventArgs e)
         {
 
         }
