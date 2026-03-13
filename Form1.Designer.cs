@@ -36,7 +36,7 @@
             this.txtHasil = new System.Windows.Forms.TextBox();
             this.btnbutton = new System.Windows.Forms.Button();
             this.btnbutton1 = new System.Windows.Forms.Button();
-            this.btnbutton4 = new System.Windows.Forms.Button();
+            this.btnbutton3 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnConnect
@@ -109,21 +109,21 @@
             this.btnbutton1.Text = "TambahProdi";
             this.btnbutton1.UseVisualStyleBackColor = true;
             // 
-            // btnbutton4
+            // btnbutton3
             // 
-            this.btnbutton4.Location = new System.Drawing.Point(527, 374);
-            this.btnbutton4.Name = "btnbutton4";
-            this.btnbutton4.Size = new System.Drawing.Size(105, 23);
-            this.btnbutton4.TabIndex = 8;
-            this.btnbutton4.Text = "UpdateMK";
-            this.btnbutton4.UseVisualStyleBackColor = true;
+            this.btnbutton3.Location = new System.Drawing.Point(527, 374);
+            this.btnbutton3.Name = "btnbutton3";
+            this.btnbutton3.Size = new System.Drawing.Size(105, 23);
+            this.btnbutton3.TabIndex = 8;
+            this.btnbutton3.Text = "UpdateMK";
+            this.btnbutton3.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.btnbutton4);
+            this.Controls.Add(this.btnbutton3);
             this.Controls.Add(this.btnbutton1);
             this.Controls.Add(this.btnbutton);
             this.Controls.Add(this.txtHasil);
@@ -149,7 +149,7 @@
         private System.Windows.Forms.TextBox txtHasil;
         private System.Windows.Forms.Button btnbutton;
         private System.Windows.Forms.Button btnbutton1;
-        private System.Windows.Forms.Button btnbutton4;
+        private System.Windows.Forms.Button btnbutton3;
     }
 }
 
