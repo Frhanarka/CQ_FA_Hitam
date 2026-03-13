@@ -34,6 +34,9 @@
             this.btnUpdate = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.txtHasil = new System.Windows.Forms.TextBox();
+            this.btnbutton = new System.Windows.Forms.Button();
+            this.btnbutton1 = new System.Windows.Forms.Button();
+            this.btnbutton4 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnConnect
@@ -88,11 +91,41 @@
             this.txtHasil.Size = new System.Drawing.Size(403, 26);
             this.txtHasil.TabIndex = 5;
             // 
+            // btnbutton
+            // 
+            this.btnbutton.Location = new System.Drawing.Point(121, 374);
+            this.btnbutton.Name = "btnbutton";
+            this.btnbutton.Size = new System.Drawing.Size(118, 23);
+            this.btnbutton.TabIndex = 6;
+            this.btnbutton.Text = "Hitungdosen";
+            this.btnbutton.UseVisualStyleBackColor = true;
+            // 
+            // btnbutton1
+            // 
+            this.btnbutton1.Location = new System.Drawing.Point(326, 374);
+            this.btnbutton1.Name = "btnbutton1";
+            this.btnbutton1.Size = new System.Drawing.Size(119, 23);
+            this.btnbutton1.TabIndex = 7;
+            this.btnbutton1.Text = "TambahProdi";
+            this.btnbutton1.UseVisualStyleBackColor = true;
+            // 
+            // btnbutton4
+            // 
+            this.btnbutton4.Location = new System.Drawing.Point(527, 374);
+            this.btnbutton4.Name = "btnbutton4";
+            this.btnbutton4.Size = new System.Drawing.Size(105, 23);
+            this.btnbutton4.TabIndex = 8;
+            this.btnbutton4.Text = "UpdateMK";
+            this.btnbutton4.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnbutton4);
+            this.Controls.Add(this.btnbutton1);
+            this.Controls.Add(this.btnbutton);
             this.Controls.Add(this.txtHasil);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnUpdate);
@@ -114,6 +147,9 @@
         private System.Windows.Forms.Button btnUpdate;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtHasil;
+        private System.Windows.Forms.Button btnbutton;
+        private System.Windows.Forms.Button btnbutton1;
+        private System.Windows.Forms.Button btnbutton4;
     }
 }
 
