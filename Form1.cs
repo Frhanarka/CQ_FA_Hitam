@@ -146,7 +146,7 @@ namespace PraktikumADO
             catch (Exception ex) { MessageBox.Show(ex.Message); }
         }
 
-        private void btnInsertP_Click(object sender, EventArgs e)
+        private void btnInsertProdi_Click(object sender, EventArgs e)
         {
             try
             {
