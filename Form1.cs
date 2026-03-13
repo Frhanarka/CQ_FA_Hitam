@@ -117,11 +117,8 @@ namespace PraktikumADO
             {
                 MessageBox.Show(ex.Message);
             }
-
-        private
         }
 
 
     }
-
 }
