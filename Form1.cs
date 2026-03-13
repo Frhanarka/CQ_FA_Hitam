@@ -140,7 +140,7 @@ namespace PraktikumADO
                 conn.Open();
                 cmd = new SqlCommand("UPDATE MataKuliah SET SKS = 4 WHERE KodeMK = 'IF210101'", conn);
                 int hasil = cmd.ExecuteNonQuery();
-                MessageBox.Show("SKS Berhasil Diupdate! Baris terpengaruh: " + hasil);
+                MessageBox.Show("SKS Berhasil Diupdate! Baris terpenga: " + hasil);
                 conn.Close();
             }
             catch (Exception ex) { MessageBox.Show(ex.Message); }
