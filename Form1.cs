@@ -119,7 +119,57 @@ namespace PraktikumADO
             }
         }
 
+        private void btnHitungDose_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                Koneksi();
+                conn.Open();
+                cmd = new SqlCommand("SELECT COUNT(*) FROM Dosen", conn);
+                txtHasil.Text = cmd.ExecuteScalar().ToString();
+                conn.Close();
+            }
+            catch (Exception ex) { MessageBox.Show(ex.Message); }
+        }
 
+        private void btnUpdateMK_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                Koneksi();
+                conn.Open();
+                cmd = new SqlCommand("UPDATE MataKuliah SET SKS = 4 WHERE KodeMK = 'IF210101'", conn);
+                int hasil = cmd.ExecuteNonQuery();
+                MessageBox.Show("SKS Berhasil Diupdate! Baris terpengaruh: " + hasil);
+                conn.Close();
+            }
+            catch (Exception ex) { MessageBox.Show(ex.Message); }
+        }
+
+        private void btnInsertProdi_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                Koneksi();
+                conn.Open();
+
+                string query = "INSERT INTO ProgramStudi (KodeProdi, NamaProdi) VALUES ('MI01','Manajemen Informatika')";
+
+                cmd = new SqlCommand(query, conn);
+
+                cmd.ExecuteNonQuery();
+
+                MessageBox.Show("Data Prodi Berhasil Ditambahkan!");
+
+                conn.Close();
+            }
+            catch (Exception ex) { MessageBox.Show("Gagal/Sudah ada: " + ex.Message); }
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
 
     }
 }
