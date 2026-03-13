@@ -132,7 +132,7 @@ namespace PraktikumADO
             catch (Exception ex) { MessageBox.Show(ex.Message); }
         }
 
-        private void btnUpdateMK_Cl(object sender, EventArgs e)
+        private void btnUpdateMK_ClICK(object sender, EventArgs e)
         {
             try
             {
