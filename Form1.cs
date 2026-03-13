@@ -119,7 +119,7 @@ namespace PraktikumADO
             }
         }
 
-        private void btnHitungDose_Click(object sender, EventArgs e)
+        private void btnHitungDosen_Click(object sender, EventArgs e)
         {
             try
             {
